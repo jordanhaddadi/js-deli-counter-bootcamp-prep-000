@@ -15,7 +15,8 @@ function nowServing(katzDeli) {
     return (`There is nobody waiting to be served!`);
   }
 }
- 
+var line = [];
+
 function currentLine(katzDeli) {
   let i = 0;
   while (i < katzDeli.length) {
