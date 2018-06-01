@@ -19,15 +19,14 @@ function nowServing(katzDeli) {
 function currentLine(katzDeli) {
   let i = 0;
   while (i < katzDeli.length) {
-    line.push [` `, +i+, ` `]
+    line.push [` `, +i+, `.`]
     text += "The line is currently:" + i;
     i++;
 }
   if (i) {
-    var name = currentLine.sort;
     return `The line is currently empty.` }
   else (i); {
-    return array;
+    return `The line is currently:` + i;
   }
 }
  
